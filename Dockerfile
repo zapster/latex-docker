@@ -5,12 +5,15 @@ RUN dnf -y update && dnf clean all
 RUN dnf -y install \
   texlive-scheme-small \
   texlive-collection-langgerman \
+  texlive-hyperxmp \
   python-pygments \
   gnuplot \
   make \
   biber \
   inkscape \
   latexmk \
+  git \
+  qrencode \
   && dnf clean all
 
 RUN useradd -m docker
