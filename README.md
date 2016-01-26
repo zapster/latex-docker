@@ -8,7 +8,7 @@ This container helps compiling latex sources without the need to install all lat
 Setup
 -----
 
-Pull image ([from Docker Hub](https://registry.hub.docker.com/u/latex/latex)):
+Pull image ([from Docker Hub](https://registry.hub.docker.com/u/zapster/latex)):
 ```bash
 $ docker pull zapster/latex
 ```
