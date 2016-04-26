@@ -7,6 +7,7 @@ RUN dnf -y install \
   texlive-collection-langgerman \
   texlive-hyperxmp \
   texlive-epstopdf \
+  texlive-comment \
   python-pygments \
   gnuplot \
   make \
