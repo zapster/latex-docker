@@ -9,6 +9,7 @@ RUN dnf -y install \
   texlive-epstopdf \
   texlive-comment \
   texlive-minted \
+  texlive-algorithm2e \
   python-pygments \
   gnuplot \
   make \
