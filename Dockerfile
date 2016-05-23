@@ -10,6 +10,7 @@ RUN dnf -y install \
   texlive-comment \
   texlive-minted \
   texlive-algorithm2e \
+  texlive-pgfplots \
   python-pygments \
   gnuplot \
   make \
