@@ -11,6 +11,7 @@ RUN dnf -y install \
   texlive-minted \
   texlive-algorithm2e \
   texlive-pgfplots \
+  texlive-sttools \
   python-pygments \
   gnuplot \
   make \
