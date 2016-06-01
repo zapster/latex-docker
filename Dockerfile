@@ -12,6 +12,7 @@ RUN dnf -y install \
   texlive-algorithm2e \
   texlive-pgfplots \
   texlive-sttools \
+  texlive-luainputenc \
   python-pygments \
   gnuplot \
   make \
