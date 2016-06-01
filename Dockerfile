@@ -25,9 +25,9 @@ RUN mkdir -p /tmp/texlive \
   | tar -xzC /tmp/texlive \
   && /tmp/texlive/install-tl-*/install-tl -profile /tmp/medium.profile \
   && rm -rf /tmp/texlive
-env PATH /home/docker/usr/local/texlive/current/bin/x86_64-linux:$PATH
-env INFOPATH /home/docker/usr/local/texlive/current/texmf-dist/doc/info:$INFOPATH
-env MANPATH /home/docker/usr/local/texlive/current/texmf-dist/doc/man:$MANPATH
+ENV PATH=/home/docker/usr/local/texlive/current/bin/x86_64-linux:$PATH \
+    INFOPATH=/home/docker/usr/local/texlive/current/texmf-dist/doc/info:$INFOPATH \
+    MANPATH=/home/docker/usr/local/texlive/current/texmf-dist/doc/man:$MANPATH
 
 # install extra packages
 RUN tlmgr update --all && tlmgr install \
