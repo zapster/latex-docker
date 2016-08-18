@@ -1,4 +1,4 @@
-FROM fedora:22
+FROM fedora:24
 MAINTAINER Josef Eisl <zapster@zapster.cc>
 
 RUN dnf -y update && dnf clean all
