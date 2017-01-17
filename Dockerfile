@@ -11,6 +11,7 @@ RUN dnf -y install \
   qrencode \
   tar \
   wget \
+  gnupg \
   perl-Digest-MD5 \
   which \
   && dnf clean all
@@ -44,6 +45,8 @@ RUN tlmgr update --all && tlmgr install \
   pgfplots \
   preprint \
   relsize \
+  ecv \
+  paralist \
   sttools
 
 # setup volume
